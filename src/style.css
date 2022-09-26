@@ -1,1 +1,31 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background: #bdc3c7;
+  min-width: 500px;
+}
+
+.my_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  font-size: 7vh;
+}
+
+#my_button {
+  font-size: 4vh;
+}
+
+#my_button:hover {
+  color: blueviolet;
+}
+
+#my_button:active {
+  color: blue;
+}
